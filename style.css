@@ -91,15 +91,33 @@ body{
 }
 .spec-typo ul p {
     padding-bottom: 8%;
+    padding-left: 30px;
 }
 .spec-typo ul li {
+    background-size: 20px 20px;
     font-weight: bold;
     font-size: 1.3rem;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.spec-typo ul li:nth-child(1) {
+    background-image: url(./asset/share-solid.svg);
+    background-repeat: no-repeat;
+}
+.spec-typo ul li:nth-child(3) {
+    background-image: url(./asset/share-solid\ copy.svg);
+    background-repeat: no-repeat;
+}
+.spec-typo ul li:nth-child(5) {
+    background-image: url(./asset/share-solid\ copy\ 2.svg);
+    background-repeat: no-repeat;
 }
 
 /***** features *******/
 #features {
-    padding: 2% 6% 2% 6%;
+    padding: 2% 6% 6% 6%;
     text-align: center;
 }
 #features h2 {
@@ -114,24 +132,42 @@ body{
     
 }
 .img-container {
-    border: 1px solid;
     margin: auto;
     width: 100px;
     border-radius: 50%;
+}
+
+.i-c-one {
+    background-color: #FAEAEB;
+}
+.i-c-two {
+    background-color: #FBF0EE;
+}
+.i-c-three {
+    background-color: #E9F4F6;
+}
+.i-c-four {
+    background-color: #F2E7F5;
 }
 .img-container img {
     padding-top: 22px;
     padding-bottom: 22px;
 }
 figure {
-    border: 1px solid;
+    box-shadow: 10px 10px 1px rgb(128, 125, 125);
     margin: 0 15px;
     width: 250px;
     padding-top: 3%;
     border-radius: 20px;
 }
 figcaption {
-    border: 1px solid;
     margin-top: 20%;
     padding-top: 20px;
+    border-radius: 20px;
+    border: none;
+    padding-bottom: 25px;
+}
+figcaption.cap-active {
+    background-color:#7030CC;
+
 }
