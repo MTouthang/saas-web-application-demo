@@ -8,6 +8,10 @@ body{
     font-family: Roboto;
 }
 
+.toggle img:nth-child(2) {
+    display: none;
+}
+
 .i-logo-h {
     width: 150px;
 }

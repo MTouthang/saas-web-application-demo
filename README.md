@@ -18,5 +18,5 @@ A simple SAAS web application demo
 ### ScreenShot
 ![Project screenshot](./fullthumbnail.png)
 
-
+**Mobile Friendly**
 *--------------------------------------------- Feel free to fork and play around ----------------------------------------*
