@@ -24,15 +24,15 @@ nav ul li {
     padding-top: 5%;
  }
  .i-illustration {
-    width: 370px;
+    width: 460px;
  }
  #spec {
     flex-direction: column-reverse;
 }
 #spec img {
-    width: 370px;
+    width: 460px;
 }
 
 figure {
-    margin: 10px 55px;
+    margin: 10px 105px;
 }
